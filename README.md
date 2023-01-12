@@ -119,7 +119,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Video presentation <a name="video-demo"></a>
 
-> This is the link to my live Demo
+> This is the link to my live video
 - [Video Link](https://www.loom.com/share/ea538914aead42af99c3eb36858ebd2c)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -168,12 +168,7 @@ Example command:
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/divine-asiriuwa-a87227a3/)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/Divinity-dev/)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-## 🔭 Future Features <a name="future-features"></a>
 
 > I would like to add a sign up form and also a map in the future
 
