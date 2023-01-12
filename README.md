@@ -76,21 +76,21 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://www.learn-html.org/">html</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://web.dev/learn/css/">css</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.javascript.com/">Javascript</a></li>
   </ul>
 </details>
 
@@ -165,7 +165,15 @@ Example command:
 - GitHub: [@githubhandle](https://github.com/Divinity-dev/)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## 🔭 Future Features <a name="future-features"></a>
 
+> I would like to add a sign up form and also a map in the future
+
+- [ ] **[sign up form]**
+- [ ] **[A map to location]**
+- [ ] **[new_feature_3]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -190,7 +198,7 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a name="acknowledgements">Cindy Shin</a>
 
 > 
 
@@ -209,6 +217,5 @@ I would like to thank Cindy Shin for the inspiration for the design
 
 This project is [MIT](LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
