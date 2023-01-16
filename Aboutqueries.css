@@ -1,0 +1,301 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  transition: all 0.5s;
+  list-style: none;
+  text-decoration: none;
+  font-family: "lato", sans-serif;
+  overflow-x: hidden;
+}
+
+@media screen and (min-width: 767px) {
+  .socials {
+    background-color: #272a31;
+    display: flex;
+    justify-content: right;
+  }
+
+  .socials ul {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: end;
+    margin-right: 80px;
+  }
+
+  .socials li {
+    margin-right: 5%;
+  }
+
+  .socials a {
+    color: #fff;
+    font-weight: 300;
+  }
+
+  .socials a:hover {
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    color: green;
+  }
+
+  .nav_items a:hover {
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+  }
+
+  .program {
+    border: 4px solid #ec5442;
+    padding: 10px;
+  }
+
+  .program:hover {
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .socials img {
+    width: 15px;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  .nav_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px 10px 200px;
+    box-shadow: inset 0 -4px 3px #e7ebe7;
+  }
+
+  .nav_items img {
+    width: 80px;
+  }
+
+  .nav_items ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .nav_items li {
+    margin-right: 20px;
+  }
+
+  .a {
+    color: #272a31;
+  }
+
+  .about {
+    color: #ec5442;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/download.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .main h1 {
+    width: 100%;
+    font-size: 300%;
+    color: #ec5442;
+    text-align: center;
+  }
+
+  .main p {
+    border: 1px solid #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 100%;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .features p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 100%;
+    text-align: center;
+  }
+
+  .main p:hover {
+    border: 1px solid #fff;
+    background-color: green;
+    color: #fff;
+  }
+
+  .main h2 {
+    font-size: 150%;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .line {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-left: 50%;
+    background-color: #ab0909e0;
+    width: 5%;
+    line-height: 2px;
+  }
+
+  .main h3 {
+    color: #fff;
+    font-size: 90%;
+    width: 100%;
+    text-align: center;
+  }
+
+  img:hover {
+    transform: scale(1.05);
+  }
+
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .features h2 {
+    margin-top: 30px;
+    font-size: 150%;
+    font-weight: 700;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .add {
+    margin-left: 0;
+  }
+
+  .features img {
+    border: 1px solid #d3d3d3;
+    padding: 20px 40px;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  .hr {
+    line-height: 2px;
+    margin-bottom: 30px;
+  }
+
+  .summit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .summit h4 {
+    font-size: 80%;
+    margin-bottom: 50px;
+  }
+
+  .summit h2 {
+    margin-top: 20px;
+    font-size: 150%;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+  }
+
+  .line1 {
+    margin-left: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .summit-class {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .Lessons {
+    width: 20%;
+    height: auto;
+    margin-right: 20px;
+    padding: 30px 20px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+  }
+
+  .yr {
+    background-image: linear-gradient(rgba(164, 62, 74, 0.696), rgba(164, 62, 74, 0.696)), url("images/summit2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .yr2 {
+    background-image: linear-gradient(rgba(181, 53, 68, 0.696), rgba(181, 53, 68, 0.696)), url("images/summit3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .Lessons h2 {
+    font-size: 100%;
+    color: #fff;
+  }
+
+  .Lessons h4 {
+    font-size: 60%;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .rights {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 20px;
+    position: relative;
+    background-color: #272a31;
+  }
+
+  .rights img {
+    width: 5%;
+    height: auto;
+    position: absolute;
+    left: 43%;
+  }
+
+  .rights h3 {
+    width: 60%;
+    font-size: 90%;
+    position: absolute;
+    left: 50%;
+    color: #fff;
+  }
+
+  .footer {
+    display: none;
+  }
+}

@@ -1,0 +1,329 @@
+@media screen and (max-width: 767px) {
+  .socials {
+    display: none;
+  }
+
+  .Logo {
+    display: none;
+  }
+
+  .img {
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  img:hover {
+    transform: scale(1.05);
+  }
+
+  .features img {
+    border: 1px solid #d3d3d3;
+    padding: 20px 40px;
+    width: 90%;
+    height: auto;
+    margin-bottom: 40px;
+  }
+
+  .partners img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  .rights img {
+    width: 20%;
+    position: absolute;
+    left: 15%;
+  }
+
+  .nav_items ul img {
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .nav_items {
+    position: fixed;
+    z-index: 1;
+  }
+
+  .pop-up {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    z-index: 1;
+    padding: 20px;
+    background-color: #272a31;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .show {
+    left: 0;
+  }
+
+  .nav_items li {
+    margin-top: 5%;
+    width: 80%;
+  }
+
+  .nav_items ul li {
+    margin-top: 30px;
+  }
+
+  .nav_items li a {
+    font-size: 40px;
+  }
+
+  .nav_items ul li a {
+    color: #fff;
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 20%;
+    margin-bottom: 20px;
+  }
+
+  .a {
+    color: #272a31;
+  }
+
+  .about {
+    color: #ec5442;
+  }
+
+  .program {
+    border: 4px solid #ec5442;
+    padding: 10px;
+  }
+
+  .main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: absolute;
+    top: 120px;
+  }
+
+  .main-content {
+    background-image: url("images/download.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .main h1 {
+    width: 100%;
+    font-size: 250%;
+    color: #ec5442;
+  }
+
+  .main p {
+    border: 1px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 100%;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .features p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 100%;
+    text-align: center;
+  }
+
+  .main p:hover {
+    border: 1px solid #fff;
+    background-color: green;
+    color: #fff;
+  }
+
+  .main h2 {
+    font-size: 150%;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .main h3 {
+    color: #fff;
+    font-size: 90%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .features h2 {
+    font-size: 150%;
+    font-weight: 700;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hr {
+    line-height: 2px;
+    margin-bottom: 30px;
+    color: #000;
+    width: 120%;
+  }
+
+  .summit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .summit h4 {
+    font-size: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .summit h2 {
+    font-size: 150%;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+  }
+
+  .line1 {
+    margin-left: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .summit-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .Lessons {
+    width: 90%;
+    height: auto;
+    padding: 30px 20px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+  }
+
+  .yr {
+    background-image: linear-gradient(rgba(164, 62, 74, 0.696), rgba(164, 62, 74, 0.696)), url("images/summit2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .yr2 {
+    background-image: linear-gradient(rgba(181, 53, 68, 0.696), rgba(181, 53, 68, 0.696)), url("images/summit3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .Lessons h2 {
+    font-size: 100%;
+    color: #fff;
+  }
+
+  .Lessons h4 {
+    font-size: 60%;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .partners h2 {
+    font-size: 150%;
+  }
+
+  .h1 {
+    color: rgb(227, 213, 213);
+    font-weight: 400;
+  }
+
+  .h2 {
+    color: rgba(94, 79, 79, 0.607);
+    font-weight: 400;
+  }
+
+  .h3 {
+    color: rgb(135, 129, 108);
+    font-weight: 400;
+  }
+
+  .h4 {
+    color: rgba(126, 117, 117, 0.607);
+    font-weight: 400;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #272a31;
+  }
+
+  .partners {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .line {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    background-color: #ab0909e0;
+    width: 20%;
+    line-height: 2px;
+  }
+
+  .partners div {
+    display: flex;
+  }
+
+  .rights {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+    position: relative;
+  }
+
+  .rights h3 {
+    width: 60%;
+    font-size: 90%;
+    position: absolute;
+    left: 40%;
+  }
+}

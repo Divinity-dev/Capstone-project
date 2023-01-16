@@ -1,0 +1,399 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  transition: all 0.5s;
+  list-style: none;
+  text-decoration: none;
+  font-family: "lato", sans-serif;
+}
+
+@media screen and (min-width: 767px) {
+  .socials {
+    background-color: #272a31;
+    display: flex;
+    justify-content: right;
+  }
+
+  .socials ul {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: end;
+    margin-right: 80px;
+  }
+
+  .socials li {
+    margin-right: 5%;
+  }
+
+  .socials a {
+    color: #fff;
+    font-weight: 300;
+  }
+
+  .socials a:hover {
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+    color: green;
+  }
+
+  .nav_items a:hover {
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+  }
+
+  .program {
+    border: 4px solid #ec5442;
+    padding: 10px;
+  }
+
+  .program:hover {
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .socials img {
+    width: 15px;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  .nav_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px 10px 200px;
+    box-shadow: inset 0 -4px 3px #e7ebe7;
+  }
+
+  .nav_items img {
+    width: 80px;
+  }
+
+  .nav_items ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav_items li {
+    margin-right: 20px;
+  }
+
+  .a {
+    color: #272a31;
+  }
+
+  .about {
+    color: #ec5442;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/download.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .main h1 {
+    width: 100%;
+    font-size: 300%;
+    color: #ec5442;
+    text-align: center;
+  }
+
+  .main p {
+    border: 1px solid #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 100%;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .main-container p {
+    width: 70%;
+    color: #fff;
+    font-size: 80%;
+    text-align: center;
+  }
+
+  .main p:hover {
+    border: 1px solid #fff;
+    background-color: green;
+    color: #fff;
+  }
+
+  .main h2 {
+    font-size: 150%;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .main h3 {
+    color: #fff;
+    font-size: 90%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .features {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-image: url("images/background-pattern.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+  }
+
+  .header {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .two {
+    color: #000;
+  }
+
+  .three {
+    color: #fff;
+    font-weight: 100;
+  }
+
+  .line {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    background-color: #ab0909e0;
+    width: 5%;
+    line-height: 2px;
+  }
+
+  .main-container {
+    display: flex;
+    column-gap: 0.5%;
+    justify-content: center;
+  }
+
+  .Talkers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #d3d3d3;
+  }
+
+  .main-container div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 17%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(117, 112, 112, 0.176);
+    border: 1px solid transparent;
+  }
+
+  .img {
+    display: none;
+  }
+
+  img:hover {
+    transform: scale(1.05);
+  }
+
+  .persons div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .partners div {
+    display: flex;
+    margin-right: 20px;
+  }
+
+  .main-container div:hover {
+    border: 2px solid #fff;
+  }
+
+  .main-container img {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-container h2 {
+    width: 15%;
+    text-align: center;
+    color: #ec5442;
+    margin: 20px 0;
+    font-size: 100%;
+  }
+
+  .features h3 {
+    color: #fff;
+    text-align: center;
+    width: 18%;
+    font-size: 80%;
+    margin: 30px 20px;
+    border-bottom: 1px solid #fff;
+  }
+
+  .Speakers {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .speakers2 {
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mixed {
+    position: relative;
+  }
+
+  .first {
+    width: 100px;
+    height: 100px;
+  }
+
+  .last {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: auto;
+  }
+
+  .persons {
+    display: flex;
+    width: 95%;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .persons hr {
+    width: 20%;
+    line-height: 2px;
+    margin-bottom: 10px;
+  }
+
+  .partners h2 {
+    font-size: 150%;
+  }
+
+  .persons div h2 {
+    font-size: 100%;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .rights h3 {
+    width: 60%;
+    font-size: 90%;
+  }
+
+  .persons div h3 {
+    color: #ec5442;
+    font-size: 90%;
+    margin-bottom: 10px;
+  }
+
+  .persons h4 {
+    font-size: 80%;
+    color: #000;
+  }
+
+  .footer {
+    background-color: #272a31;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .desktop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .partners {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .partners img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  .h1 {
+    color: rgb(227, 213, 213);
+    font-weight: 400;
+  }
+
+  .h2 {
+    color: rgba(94, 79, 79, 0.607);
+    font-weight: 400;
+  }
+
+  .h3 {
+    color: rgb(135, 129, 108);
+    font-weight: 400;
+  }
+
+  .h4 {
+    color: rgba(126, 117, 117, 0.607);
+    font-weight: 400;
+  }
+
+  .rights {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 20px;
+    position: absolute;
+    left: 30%;
+  }
+
+  .rights img {
+    width: 10%;
+  }
+
+  footer {
+    position: relative;
+  }
+}
