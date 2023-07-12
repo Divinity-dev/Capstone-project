@@ -20,17 +20,6 @@ REQUIRED SECTIONS:
 - Acknowledgements
 - License
 
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
   <h3><b>Microverse README Template</b></h3>
 
 </div>
@@ -63,7 +52,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Agro-preneurship summit] <a name="about-project"></a>
 
-> This project is website about an Agro-preneurship summit holding in Nigeria. it's a training program for practising and aspiring farmers
+> This project is a website about an Agro-preneurship summit held in Nigeria. it's a training program for practicing and aspiring farmers
 
 **[your_project__name]** is a...
 
@@ -71,7 +60,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Html, css and javascript.
+> Html, CSS, and javascript.
 
 <details>
   <summary>Client</summary>
@@ -98,7 +87,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> This project include some level of animation, it is also accesible for people with disabilities and it's responsive to any device.
+> This project includes some level of animation, it is also accessible for people with disabilities and it's responsive to any device.
 
 - **[Animations]**
 - **[Accesibility]**
@@ -195,7 +184,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
->If you like this project and would like to support the author in anyway, you can reach me on my email divine_asiriuwa@yahoo.com 
+>All contributions can be made here https://github.com/Divinity-dev/Capstone-project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
